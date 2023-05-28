@@ -12,6 +12,8 @@ const config: Config = {
   setupFiles: ['./jest.setup.ts'],
   clearMocks: true,
   errorOnDeprecated: true,
+  notify: true,
+  notifyMode: 'failure',
 };
 
 export default config;
