@@ -9,7 +9,7 @@
     "tsconfig.json",
     ".eslint*",
     ".prettier*",
-    "jest.config.js",
+    "jest.*.js",
     "babel*"
   ]
 }
