@@ -14,6 +14,8 @@ const config: Config = {
   errorOnDeprecated: true,
   notify: true,
   notifyMode: 'failure',
+  coverageProvider: 'babel',
+  collectCoverageFrom: ['src/**/*.[jt]s?(x)'],
 };
 
 export default config;

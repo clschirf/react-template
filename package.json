@@ -12,7 +12,9 @@
     "build": "webpack",
     "start": "webpack serve",
     "test": "jest",
+    "test:coverage": "jest --collect-coverage",
     "test:watch": "jest --watch",
+    "test:watch:coverage": "jest --watch --collect-coverage",
     "pretty": "prettier --write .",
     "lint": "eslint .",
     "lint:debug": "DEBUG=eslint:cli-engine eslint ."
