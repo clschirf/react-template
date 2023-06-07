@@ -19,8 +19,13 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "outDir": "./dist/",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "resolveJsonModule": true
   },
   "compileOnSave": true,
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/ban-types": "off"
+  }
 }
