@@ -10,6 +10,9 @@ const config: Config = {
   transform: {
     '^.+\\.[jt]sx?$': 'babel-jest',
   },
+  moduleNameMapper: {
+    '^.+\\.(jpg|jpeg|png|gif)$': '<rootDir>/test-config/asset-mock.js',
+  },
   setupFilesAfterEnv: ['./jest.setup.ts'],
   clearMocks: true,
   errorOnDeprecated: true,
